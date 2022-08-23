@@ -1,0 +1,21 @@
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.galeria__card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.galeria__card img{
+    width: 200px;
+    height: 200px;
+}
+
+.invertido{
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
